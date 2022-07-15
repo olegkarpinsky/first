@@ -43,24 +43,26 @@ a:hover {
 	color: var(--red);
 }
 .banner {
-	font-size: 16px;
-	background-color: var(--yellow);
 	--yellow: #FED100;
 	--black: #333333;
 	--red: #FF352B;
 	--white: #F2F2F2;
+	font-size: 16px;
+	background-color: var(--yellow);
 }
 .container {
 	padding-top: 2.5rem;
 	color: var(--black);
 	font-family: 'Montserrat', sans-serif;
 	max-width: 83rem;
-	margin: 0rem auto;
+	margin: 0 auto;
 }
 .header {
 	max-width: 82rem;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
+	z-index: 2;
 }
 .header__logo {
 	font-size: 2rem;
@@ -106,6 +108,7 @@ a:hover {
 	font-size: 1.5rem;
 	margin-top: 1.5rem;
 	outline: var(--white) solid 2px;
+	cursor: pointer;
 }
 .banner__bullets {
 	display: flex;
@@ -125,6 +128,8 @@ a:hover {
 .banner__image {
 	max-width: 35rem;
 	margin-top: -6rem;
+	position: relative;
+	z-index: 0;
 }
 .banner__image img {
 width: 100%;
