@@ -134,9 +134,8 @@ a:hover {
 }
 .banner__title {
 	max-width: 35rem;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	font-weight: 700;
-	font-size: 70px;
 }
 .banner__subtitle {
 	font-size: 2rem;
@@ -179,26 +178,51 @@ a:hover {
 	height: 100%;
 }
 @media (max-width: 1000px) {
-	.banner__content {
-		display: block;
-	}
 	.banner__image {
-		margin: 0 auto;
-	}
-	.banner__info {
-		text-align: center;
-		flex: none;
-	}
-	.banner__title {
-		margin: 0 auto;
+		display: none;
 	}
 	.banner__bullets {
-		margin: 0 auto;
+		display: inline-block;
 		margin-top: 2rem;
 	}
+	.banner__content {
+		margin-top: 3rem;
+	}
 }
-@media (max-width: 690px) {
+@media (max-width: 670px) {
 	.header__menu {
 		display: none;
 	}
+}
+@media (max-width: 450px) {
+	.banner__title {
+		font-size: 3rem;
+		font-weight: 700;
+	}
+	.banner__subtitle {
+		font-size: 1.8rem;
+	}
+	.banner__content {
+		margin-top: 2rem;
+	}
+}
+@media (max-width: 350px) {
+	.banner__title {
+		font-size: 3rem;
+		font-weight: 700;
+	}
+}
+	/*.banner__bullets {
+		display: inline-block;
+		margin-top: 2rem;
+	}*/
+
+/*.banner__bullet {
+	max-width: 10rem;
+	font-size: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 400;
+	gap: 1.5rem;
 }
