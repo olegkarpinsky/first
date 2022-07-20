@@ -93,13 +93,13 @@ a:hover {
 	background-color: var(--yellow);
 }
 .container {
-	padding: 2.5rem 1rem 0 1rem;
 	color: var(--black);
 	font-family: "Montserrat", sans-serif;
 	max-width: 85rem;
 	margin: 0 auto;
 }
 .header {
+	padding: 2.5rem 1rem 0 1rem;
 	max-width: 82rem;
 	display: flex;
 	justify-content: space-between;
@@ -133,7 +133,6 @@ a:hover {
 	flex: 0 1 50%;
 }
 .banner__title {
-	max-width: 35rem;
 	font-size: 4.5rem;
 	font-weight: 700;
 }
@@ -212,17 +211,28 @@ a:hover {
 		font-weight: 700;
 	}
 }
-	/*.banner__bullets {
-		display: inline-block;
-		margin-top: 2rem;
-	}*/
-
-/*.banner__bullet {
-	max-width: 10rem;
-	font-size: 1rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.stages {
+	background-color: var(--white);
+}
+.stages__title {
+	margin: 6rem 24rem 3.75rem 24rem;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 2rem;
+}
+.stages__items {
+}
+.stages__item {
+}
+.stages__number {
+	font-weight: 300;
+	font-size: 3rem;
+}
+.stages__text {
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+.stages__descr {
 	font-weight: 400;
-	gap: 1.5rem;
+	font-size: 1rem;
 }
