@@ -215,14 +215,19 @@ a:hover {
 	background-color: var(--white);
 }
 .stages__title {
-	margin: 6rem 24rem 3.75rem 24rem;
-	display: inline-block;
+	margin: 6rem 0 3.75rem 0;
 	font-weight: 600;
 	font-size: 2rem;
+	text-align: center;
 }
 .stages__items {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 4rem 8rem;
 }
 .stages__item {
+	max-width: 26rem;
 }
 .stages__number {
 	font-weight: 300;
