@@ -1,5 +1,11 @@
 .stages {
-	background-color: var(--white);
+}
+.stages__container {
+	margin: 0 auto 6rem;
+	padding: 0 1rem;
+	color: var(--black);
+	font-family: "Montserrat", sans-serif;
+	max-width: 85rem;
 }
 .stages__title {
 	margin: 6rem 0 3.75rem 0;
