@@ -87,6 +87,7 @@
 	width: 100%;
 	height: 100%;
 }
+
 @media (max-width: 997px) {
 	.banner__image {
 		display: none;
@@ -99,11 +100,37 @@
 		margin-top: 3rem;
 	}
 }
+
 @media (max-width: 715px) {
 	.header__menu {
 		display: none;
 	}
+	.banner__content {
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.banner__title {
+		font-size: 3.5rem;
+	}
+	.banner__subtitle {
+		font-size: 2.25rem;
+	}
+	.banner__bullets {
+		margin: 4rem auto;
+	}
+	.banner__info {
+		flex: 1 1;
+	}
+	.banner__image {
+		display: block;
+		margin: -5rem auto 0;
+	}
+	.banner__button {
+		margin-top: 0;
+	}
 }
+
 @media (max-width: 510px) {
 	.banner__content {
 		margin-top: 2rem;
