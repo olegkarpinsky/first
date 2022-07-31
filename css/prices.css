@@ -1,4 +1,4 @@
-/*.prices {
+.prices {
 	color: var(--black);
 	font-family: "Montserrat", sans-serif;
 }
@@ -19,9 +19,9 @@
 	text-align: center;
 }
 .prices__row {
-	margin-bottom: 3.75rem;
+	margin: 0rem 1rem 3.75rem;
 	display: flex;
-	justify-content: space-between;
+	gap: 1.5rem;
 }
 .prices__column {
 	border: 1px solid #ebebeb;
@@ -62,4 +62,11 @@
 }
 .prices__button p {
 	padding: 1rem 5rem;
+}
+
+@media (max-width: 900px) {
+	.prices__row {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 }
