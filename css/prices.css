@@ -25,7 +25,6 @@
 }
 .prices__column {
 	border: 1px solid #ebebeb;
-	background-color: #ffffff;
 	width: 26rem;
 	height: 36rem;
 	text-align: center;
@@ -62,6 +61,8 @@
 }
 .prices__button p {
 	padding: 1rem 5rem;
+	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 @media (max-width: 900px) {

@@ -1,0 +1,81 @@
+.autopark {
+	color: var(--black);
+	font-family: "Montserrat", sans-serif;
+}
+.autopark__container {
+	max-width: 85rem;
+	margin: 0 auto;
+}
+.autopark__title {
+	margin-bottom: 1rem;
+	font-weight: 600;
+	font-size: 2rem;
+	text-align: center;
+}
+.autopark__subtitle {
+	margin-bottom: 3.75rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+	text-align: center;
+}
+.autopark__row {
+	margin: 0rem auto 3.75rem;
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+}
+.autopark__item {
+	border: 1px solid #ebebeb;
+	width: 12.5rem;
+	height: 3.1rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+.autopark__item:hover {
+	border: 1px solid var(--yellow);
+}
+.autopark__item p {
+	margin: 1rem 4rem;
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+.autopark__content {
+	display: flex;
+	flex: 1 0;
+}
+.autopark__info {
+}
+.autopark__info p {
+	margin-bottom: 2.4rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+.autopark__info li::before {
+	content: url(../img/autopark/checkIcon.png);
+	padding-right: 1rem;
+}
+.autopark__info li {
+	font-weight: 400;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+.autopark__button {
+	margin: 0 auto;
+	background-color: var(--yellow);
+	max-width: 15.5rem;
+	max-height: 5.5rem;
+	cursor: pointer;
+}
+.autopark__button p {
+	padding: 1rem 5rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.autopark__image {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.autopark__image img {
+	margin: 0 auto;
+}
