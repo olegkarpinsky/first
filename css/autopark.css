@@ -1,4 +1,4 @@
-.autopark {
+/* .autopark {
 	color: var(--black);
 	font-family: "Montserrat", sans-serif;
 }
@@ -27,8 +27,6 @@
 }
 .autopark__item {
 	border: 1px solid #ebebeb;
-	width: 12.5rem;
-	height: 3.1rem;
 	text-align: center;
 	box-sizing: border-box;
 }
@@ -36,13 +34,14 @@
 	border: 1px solid var(--yellow);
 }
 .autopark__item p {
-	margin: 1rem 4rem;
+	padding: 1rem 4rem;
 	font-weight: 500;
 	font-size: 1.25rem;
 }
 .autopark__content {
 	display: flex;
-	flex: 1 0;
+	justify-content: space-between;
+	/* flex: 1 0 ; */
 }
 .autopark__info {
 }
@@ -76,4 +75,5 @@
 	max-width: 40rem;
 }
 .autopark__image img {
-}
+	width: 100%;
+} */
