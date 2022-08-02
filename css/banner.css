@@ -76,6 +76,9 @@
 	font-weight: 400;
 	gap: 0.5rem;
 }
+.banner__image-adaptive {
+	display: none;
+}
 .banner__image {
 	margin: -9rem auto 0;
 	position: relative;
@@ -114,12 +117,19 @@
 	}
 	.banner__bullets {
 		margin: 3rem auto 4rem;
+		padding-bottom: 3rem;
 	}
-	.banner__image {
-		display: flex;
-		order: 1;
-		margin: -5rem auto 0;
-		margin-top: -7rem;
+	.banner__image-adaptive {
+		margin: -2rem auto 0;
+		padding: 0 0 0 3rem;
+		max-width: 23rem;
+		display: block;
+	}
+	.banner__image-adaptive img {
+		width: 100%;
+	}
+	.banner__button {
+		margin-top: 0rem;
 	}
 }
 
@@ -140,7 +150,7 @@
 	.banner__bullets {
 		display: none;
 	}
-	.banner__image {
-		margin-top: -2.5rem;
+	.banner__button {
+		margin-bottom: 2.5rem;
 	}
 }

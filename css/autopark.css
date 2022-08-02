@@ -27,8 +27,6 @@
 }
 .autopark__item {
 	border: 1px solid #ebebeb;
-	width: 12.5rem;
-	height: 3.1rem;
 	text-align: center;
 	box-sizing: border-box;
 }
@@ -42,9 +40,7 @@
 }
 .autopark__content {
 	display: flex;
-	flex: 1 0;
-}
-.autopark__info {
+	justify-content: space-around;
 }
 .autopark__info p {
 	margin-bottom: 2.4rem;
@@ -76,4 +72,12 @@
 	max-width: 40rem;
 }
 .autopark__image img {
+	width: 100%;
+	margin: -2rem 0 0 0;
+}
+
+@media (max-width: 810px) {
+	.autopark__info {
+		display: none;
+	}
 }
