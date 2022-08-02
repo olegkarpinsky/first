@@ -115,6 +115,7 @@
 		display: inline-block;
 		text-align: center;
 	}
+<<<<<<< HEAD
 	.banner__bullets {
 		margin: 3rem auto 4rem;
 		padding-bottom: 3rem;
@@ -130,6 +131,23 @@
 	}
 	.banner__button {
 		margin-top: 0rem;
+=======
+	.banner__image-adaptive {
+		display: block;
+		margin: -3rem auto 0rem;
+		max-width: 23rem;
+	}
+	.banner__image-adaptive img {
+		width: 100%;
+		margin-left: 2rem;
+	}
+	.banner__button {
+		margin-top: 0rem;
+	}
+	.banner__bullets {
+		margin: 3rem auto 0rem;
+		padding: 0 0 4rem 0;
+>>>>>>> e818f50888d26ef92f47813e36a1a1d2d28fcbae
 	}
 }
 
