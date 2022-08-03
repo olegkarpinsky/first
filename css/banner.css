@@ -1,0 +1,156 @@
+.banner {
+	font-size: 16px;
+	background-color: var(--yellow);
+}
+.banner__container {
+	margin: 0 auto;
+	padding: 0 1rem;
+	color: var(--black);
+	font-family: "Montserrat", sans-serif;
+	max-width: 85rem;
+}
+.header {
+	padding: 2.5rem 1rem 0 1rem;
+	max-width: 82rem;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 2;
+}
+.header__logo {
+	font-size: 2rem;
+	font-weight: 600;
+}
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	font-size: 1rem;
+	gap: 2rem;
+	align-items: center;
+}
+.header__link {
+}
+.header__phone {
+	font-size: 1.5rem;
+	text-decoration: underline 1px;
+	font-weight: 600;
+}
+.banner__content {
+	margin-top: 4rem;
+	display: flex;
+	flex: 1 1 50%;
+}
+.banner__title {
+	font-size: 4.5rem;
+	font-weight: 700;
+	max-width: 30rem;
+}
+.banner__subtitle {
+	margin-top: 1.5rem;
+	font-size: 2rem;
+	font-weight: 600;
+}
+.banner__button {
+	padding: 1rem 6rem;
+	margin-top: 1.5rem;
+	color: var(--white);
+	background-color: var(--red);
+	display: inline-block;
+	font-size: 1.5rem;
+	outline: var(--white) solid 2px;
+	cursor: pointer;
+}
+.banner__bullets {
+	margin-top: 4rem;
+	display: flex;
+	justify-content: space-between;
+	max-width: 34rem;
+	align-items: center;
+}
+.banner__bullet {
+	font-size: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 400;
+	gap: 0.5rem;
+}
+.banner__image-adaptive {
+	display: none;
+}
+.banner__image {
+	margin: -9rem auto 0;
+	position: relative;
+	z-index: 0;
+	max-width: 34rem;
+}
+.banner__image img {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 997px) {
+	.banner__image {
+		display: none;
+	}
+	.banner__bullets {
+		margin-bottom: 4rem;
+		gap: 2rem;
+	}
+	.banner__content {
+		margin-top: 3rem;
+	}
+}
+
+@media (max-width: 715px) {
+	.header__menu {
+		display: none;
+	}
+	.banner__content {
+		display: block;
+		text-align: center;
+	}
+	.banner__title {
+		display: inline-block;
+		text-align: center;
+	}
+	.banner__bullets {
+		margin: 3rem auto 4rem;
+		padding-bottom: 3rem;
+	}
+	.banner__image-adaptive {
+		margin: -2rem auto 0;
+		padding: 0 0 0 3rem;
+		max-width: 23rem;
+		display: block;
+	}
+	.banner__image-adaptive img {
+		width: 100%;
+	}
+	.banner__button {
+		margin-top: 0rem;
+	}
+}
+
+@media (max-width: 510px) {
+	.banner__content {
+		margin-top: 2rem;
+	}
+	.header__phone {
+		display: none;
+	}
+	.banner__title {
+		font-size: 3rem;
+		font-weight: 700;
+	}
+	.banner__subtitle {
+		font-size: 1.8rem;
+	}
+	.banner__bullets {
+		display: none;
+	}
+	.banner__button {
+		margin-bottom: 2.5rem;
+	}
+}

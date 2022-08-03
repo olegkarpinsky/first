@@ -1,0 +1,36 @@
+.stages {
+}
+.stages__container {
+	margin: 0 auto 6.4rem;
+	padding: 0 1rem;
+	color: var(--black);
+	font-family: "Montserrat", sans-serif;
+	max-width: 85rem;
+}
+.stages__title {
+	margin: 6rem 0 3.75rem 0;
+	font-weight: 600;
+	font-size: 2rem;
+	text-align: center;
+}
+.stages__items {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 4rem 8rem;
+}
+.stages__item {
+	max-width: 26rem;
+}
+.stages__number {
+	font-weight: 300;
+	font-size: 3rem;
+}
+.stages__text {
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+.stages__descr {
+	font-weight: 400;
+	font-size: 1rem;
+}
