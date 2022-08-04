@@ -1,0 +1,26 @@
+.reviews {
+	background-color: var(--yellow);
+}
+.reviews__container {
+	margin: 0 auto;
+	padding: 6.25rem 1rem 0;
+	max-width: 75rem;
+}
+.reviews__row {
+}
+.reviews__item {
+}
+.reviews__person {
+}
+.reviews__data {
+}
+.reviews__stars {
+}
+.reviews__star {
+}
+.reviews__text {
+}
+.reviews__read-more {
+}
+.reviews__all {
+}

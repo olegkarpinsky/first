@@ -1,18 +1,12 @@
 .prices {
-	color: var(--black);
-	font-family: "Montserrat", sans-serif;
 }
 .prices__container {
 	max-width: 85rem;
 	margin: 0 auto;
-}
-.prices__title {
-	margin-bottom: 1rem;
-	font-weight: 600;
-	font-size: 2rem;
-	text-align: center;
+	padding: 0 1rem;
 }
 .prices__subtitle {
+	margin-top: 1rem;
 	margin-bottom: 3.75rem;
 	font-weight: 600;
 	font-size: 1.5rem;

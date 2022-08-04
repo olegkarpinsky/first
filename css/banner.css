@@ -3,6 +3,8 @@ body {
 	--black: #333333;
 	--red: #ff352b;
 	--white: #f2f2f2;
+	font-family: 'Montserrat';
+	color: var(--black);
 }
 a {
 	color: var(--black);
@@ -14,8 +16,6 @@ a {
 .banner__container {
 	margin: 0 auto;
 	padding: 0 1rem;
-	color: var(--black);
-	font-family: "Montserrat", sans-serif;
 	max-width: 85rem;
 }
 .header {

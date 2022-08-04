@@ -1,19 +1,12 @@
 .autopark {
-	color: var(--black);
-	font-family: "Montserrat", sans-serif;
 }
 .autopark__container {
 	max-width: 85rem;
 	margin: 0 auto;
 	padding: 0 1rem;
 }
-.autopark__title {
-	margin-bottom: 1rem;
-	font-weight: 600;
-	font-size: 2rem;
-	text-align: center;
-}
 .autopark__subtitle {
+	margin-top: 1rem;
 	margin-bottom: 3.75rem;
 	font-weight: 600;
 	font-size: 1.5rem;
