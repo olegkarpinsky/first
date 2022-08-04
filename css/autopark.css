@@ -1,9 +1,9 @@
 .autopark {
 }
 .autopark__container {
-	max-width: 85rem;
 	margin: 0 auto;
-	padding: 0 1rem;
+	padding: 3.2rem 1rem;
+	max-width: 85rem;
 }
 .autopark__subtitle {
 	margin-top: 1rem;

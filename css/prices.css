@@ -1,9 +1,9 @@
 .prices {
 }
 .prices__container {
-	max-width: 85rem;
 	margin: 0 auto;
-	padding: 0 1rem;
+	padding: 3.2rem 1rem;
+	max-width: 85rem;
 }
 .prices__subtitle {
 	margin-top: 1rem;
@@ -13,7 +13,7 @@
 	text-align: center;
 }
 .prices__row {
-	margin: 0rem 1rem 6.4rem;
+	margin: 0 1rem;
 	display: flex;
 	gap: 1.5rem;
 }
@@ -49,8 +49,6 @@
 .prices__button {
 	margin: 0 auto;
 	background-color: var(--yellow);
-	max-width: 15.5rem;
-	max-height: 5.5rem;
 	cursor: pointer;
 }
 .prices__button p {
