@@ -9,9 +9,14 @@
 .reviews__row {
 	margin: 3.75rem 0;
 	display: flex;
+	justify-content: space-between;
 }
 .reviews__item:not(:last-child) {
 	margin-right: 1.25rem;
+}
+.reviews__item {
+	width: 24rem;
+	height: 10.4rem;
 }
 .reviews__person {
 	font-size: 1.5rem;
@@ -48,7 +53,7 @@
 	font-weight: 400;
 	cursor: pointer;
 }
-.reviews__all {
+/* .reviews__all {
 	text-align: center;
 }
 .reviews__all p {
@@ -56,4 +61,10 @@
 	padding: 0.8rem 6rem;
 	border: 1px solid var(--black);
 	cursor: pointer;
+} */
+@media (max-width: 1000px) {
+	.reviews__row {
+	flex-wrap: wrap;
+	justify-content: center;
+	}
 }
