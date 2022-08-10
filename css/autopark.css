@@ -120,7 +120,7 @@
 		align-items: center;
 	}
 	.autopark__info-adaptive li:hover {
-		content: url(../img/autopark/around-point1.png);
+		content: url(../img/autopark/around-point.png);
 	}
 }
 @media (max-width: 510px) {
