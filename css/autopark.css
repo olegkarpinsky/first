@@ -36,7 +36,7 @@
 	justify-content: space-around;
 }
 .autopark__info p {
-	margin-bottom: 2.4rem;
+	padding-bottom: 2.4rem;
 	font-weight: 600;
 	font-size: 1.5rem;
 }
@@ -54,9 +54,8 @@
 }
 .autopark__button {
 	margin: 0 auto;
+	display: inline-block;
 	background-color: var(--yellow);
-	max-width: 15.5rem;
-	max-height: 5.5rem;
 	cursor: pointer;
 }
 .autopark__button p {
@@ -121,6 +120,14 @@
 	}
 	.autopark__info-adaptive li:hover {
 		content: url(../img/autopark/around-point.png);
+	}
+	.autopark__button-adaptive {
+		display: flex;
+		justify-content: center;
+	}
+	.autopark__button-adaptive p {
+		padding: 1.5rem 7.6rem;
+		font-weight: 500;
 	}
 }
 @media (max-width: 510px) {
