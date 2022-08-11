@@ -70,9 +70,23 @@
 	width: 100%;
 	margin: -2rem 0 0 0;
 }
+.autopark__slider-left {
+	margin-top: 8rem;
+	padding: 0 3rem;
+}
+.autopark__slider-right {
+	margin-top: 8rem;
+	padding: 0 3rem;
+}
 
-@media (max-width: 810px) {
+@media (max-width: 1000px) {
 	.autopark__info {
+		display: none;
+	}
+	.autopark__slider-left {
+		display: none;
+	}
+	.autopark__slider-right {
 		display: none;
 	}
 	.autopark__subtitle {
@@ -100,7 +114,7 @@
 		margin: 0 auto;
 	}
 	.autopark__info-adaptive {
-		margin: 0 auto;
+		margin: 0.5rem auto;
 		display: block;
 	}
 	.autopark__info-adaptive p {
@@ -108,15 +122,18 @@
 		font-size: 1.25rem;
 		font-weight: 400;
 	}
-	.autopark__info-adaptive li::before {
-		content: url(../img/autopark/point.png);
-	}
 	.autopark__info-adaptive ul {
 		margin: 0 auto;
 		max-width: 15rem;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+	}
+	.autopark__info-adaptive li {
+		margin: 1rem 0 1.25rem;
+	}
+	.autopark__info-adaptive li::before {
+		content: url(../img/autopark/point.png);
 	}
 	.autopark__info-adaptive li:hover {
 		content: url(../img/autopark/around-point.png);
@@ -128,6 +145,7 @@
 	.autopark__button-adaptive p {
 		padding: 1.5rem 7.6rem;
 		font-weight: 500;
+		background-color: var(--yellow);
 	}
 }
 @media (max-width: 510px) {
