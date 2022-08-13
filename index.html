@@ -17,7 +17,7 @@
 
 <body>
 	<div class="banner">
-		<div class="banner__container">
+		<div class="banner__container container">
 			<header class="header">
 				<div class="header__logo">MOVEE</div>
 				<nav class="header__menu">
@@ -35,9 +35,9 @@
 					<div class="banner__image-adaptive">
 						<img src="img/first-block/courier2.png" alt="image">
 					</div>
-					<div class="banner__button">Заказать</div>
+					<div class="banner__button button">Заказать</div>
 					<div class="banner__bullets">
-						<div class="banner__bullet">
+						<div class="banner__bullet ">
 							<div class="banner__icon">
 								<img src="img/first-block/icon/01.svg" alt="icon">
 							</div>
@@ -64,7 +64,7 @@
 		</div>
 	</div>
 	<div class="stages">
-		<div class="stages__container">
+		<div class="stages__container container">
 			<h2 class="stages__title title">Как это происходит?</h2>
 			<ul class="stages__items">
 				<li class="stages__item">
@@ -95,9 +95,9 @@
 		</div>
 	</div>
 	<div class="prices">
-		<div class="prices__container">
+		<div class="prices__container container">
 			<h2 class="prices__title title">Цены </h2>
-			<h3 class="prices__subtitle">Фиксированная стоимость на переезд под ключ </h3>
+			<h3 class="prices__subtitle subtitle">Фиксированная стоимость на переезд под ключ </h3>
 			<div class="prices__row">
 				<div class="prices__column">
 					<h4>1-комнатная кв-ра</h4>
@@ -139,9 +139,9 @@
 		</div>
 	</div>
 	<div class="autopark">
-		<div class="autopark__container">
+		<div class="autopark__container container">
 			<h2 class="autopark__title title">Автопарк</h2>
-			<h3 class="autopark__subtitle">10 видов автомобилей от 800 кг до 10 тонн</h3>
+			<h3 class="autopark__subtitle subtitle">10 видов автомобилей от 800 кг до 10 тонн</h3>
 			<nav class="autopark__row">
 				<div class="autopark__item">
 					<p>Газели</p>
@@ -192,7 +192,7 @@
 		</div>
 	</div>
 	<div class="reviews">
-		<div class="reviews__container">
+		<div class="reviews__container container">
 			<h2 class="reviews__title title">Отзывы</h2>
 			<div class="reviews__row">
 				<div class="reviews__item">
@@ -265,41 +265,54 @@
 		</div>
 	</div>
 	<div class="forms">
-		<div class="forms__container stages__container">
+		<div class="forms__container container">
 			<div class="forms__title title">Закажи переезд прямо сейчас со скидкой %</div>
-			<p class="forms__note">Мы перезвоним в течении 10 секунд</p>
-			<form action="/">
-				<div class="forms__name-and-tel">
-					<input type="text" placeholder="Ваше имя">
-					<input type="tel" placeholder="Телефон">
-				</div>
-				<div class="forms__location">
-					<p>Укажите область</p>
-					<select name="region">
-						<option value="Minskaya">Минская</option>
-						<option value="Brestskaya">Брестская</option>
-					</select>
-					<select name="city">
-						<option value="Mozyr">Мозырь</option>
-						<option value="Minsk">Минск</option>
-						<option value="Brest">Брест</option>
-					</select>
-				</div>
-				<div class="forms__payment">
-					<p>Способ оплаты</p>
-					<p><input type="radio" name="payment-method" value="cash">Наличными курьеру</p>
-					<p><input type="radio" name="payment-method" value="card" checked>Картой курьеру</p>
-					<p><input type="radio" name="payment-method" value="bank">Банковский перевод</p>
-				</div>
-				<div class="forms__services">
-					<p>Дополнительные услуги</p>
-					<p><input type="checkbox" name="service1" value="yes">Вызов замерщика</p>
-					<p><input type="checkbox" name="service2" value="yes">Упаковка для хрупких предметов</p>
-					<p><input type="checkbox" name="service3" value="yes">Кран</p>
-					<p><input type="checkbox" name="service4" value="yes">Сборка мебели</p>
-					<p><input type="checkbox" name="service5" value="yes">Крупногабаритные предметы</p>
-				</div>
-			</form>
+			<div class="forms__wrapper">
+				<p class="forms__note">Мы перезвоним в течении 10 секунд</p>
+				<form action="/">
+					<input class="forms__name" type="text" placeholder="Ваше имя">
+					<input class="forms__tel" type="tel" placeholder="Телефон">
+					<div class="forms__location">
+						<p class="forms__region-name forms__section-name">Укажите область</p>
+						<select class="forms__region" name="region">
+							<option value="Minskaya">Минская</option>
+							<option value="Brestskaya">Брестская</option>
+						</select>
+						<select class="forms__city" name="city">
+							<p class="forms__section-name">Укажите город</p>
+							<option value="Mozyr">Мозырь</option>
+							<option value="Minsk">Минск</option>
+							<option value="Brest">Брест</option>
+						</select>
+					</div>
+					<div class="forms__payment">
+						<p class="forms__payment-name forms__section-name">Способ оплаты</p>
+						<div class="forms__payment-inputs">
+							<p><input type="radio" name="payment-method" value="cash">Наличными курьеру</p>
+							<p><input type="radio" name="payment-method" value="card" checked>Картой курьеру</p>
+							<p><input type="radio" name="payment-method" value="bank">Банковский перевод</p>
+						</div>
+					</div>
+					<div class="forms__services">
+						<p class="forms__services-name forms__section-name">Дополнительные услуги</p>
+						<p><input type="checkbox" name="service1" value="yes">Вызов замерщика</p>
+						<p><input type="checkbox" name="service2" value="yes">Упаковка для хрупких предметов</p>
+						<p><input type="checkbox" name="service3" value="yes">Кран</p>
+						<p><input type="checkbox" name="service4" value="yes">Сборка мебели</p>
+						<p><input type="checkbox" name="service5" value="yes">Крупногабаритные предметы</p>
+					</div>
+					<div class="forms__timer">
+						<p>05:37:25</p>
+					</div>
+					<div class="forms__button-send">
+						<div class="forms__button button">
+							<p>Заказать со скидкой</p>
+						</div>
+						<p class="forms__note-buttons"><input type="checkbox" name="button-send" value="yes">Даю согласие на
+							обработку данных</p>
+					</div>
+				</form>
+			</div>
 		</div>
 	</div>
 </body>

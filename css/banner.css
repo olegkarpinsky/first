@@ -2,7 +2,7 @@
 	font-size: 16px;
 	background-color: var(--yellow);
 }
-.banner__container {
+.container {
 	margin: 0 auto;
 	padding: 0 1rem;
 	max-width: 85rem;
@@ -49,13 +49,12 @@
 	max-width: 30rem;
 }
 .banner__subtitle {
-	margin-top: 1.5rem;
+	margin: 1.5rem 0;
 	font-size: 2rem;
 	font-weight: 600;
 }
-.banner__button {
+.button {
 	padding: 1rem 6rem;
-	margin-top: 1.5rem;
 	color: var(--white);
 	background-color: var(--red);
 	display: inline-block;

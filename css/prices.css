@@ -1,11 +1,9 @@
 .prices {
 }
 .prices__container {
-	margin: 0 auto;
 	padding: 3.2rem 1rem;
-	max-width: 85rem;
 }
-.prices__subtitle {
+.subtitle {
 	margin-top: 1rem;
 	margin-bottom: 3.75rem;
 	font-weight: 600;

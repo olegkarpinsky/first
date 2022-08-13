@@ -5,12 +5,16 @@
 @import "./prices.css";
 @import "./autopark.css";
 @import "./reviews.css";
-body {
+@import "./forms.css";
+
+:root {
 	--yellow: #fed100;
 	--black: #333333;
 	--red: #ff352b;
 	--white: #f2f2f2;
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
+}
+body {
 	color: var(--black);
 }
 a {

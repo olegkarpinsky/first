@@ -1,13 +1,11 @@
 .stages {
 }
 .stages__container {
-	margin: 0 auto;
 	padding: 6rem 1rem 3.2rem;
-	max-width: 85rem;
 }
 .title {
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 1.875rem;
 	text-align: center;
 }
 .stages__items {

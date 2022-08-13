@@ -1,0 +1,92 @@
+.forms__container {
+	padding-top: 3.9rem;
+	max-width: 47rem;
+}
+.forms__wrapper {
+	padding-left: 0.5rem;
+	max-width: 42.5rem;
+}
+.forms__title {
+	text-align: left;
+}
+.forms__note {
+	margin-top: 0.63rem;
+	margin-bottom: 2.125rem;
+	font-weight: 400;
+	font-size: 16px;
+}
+.forms__name {
+	margin-right: 4.23rem;
+	padding-bottom: 0.875rem;
+	width: 18.75rem;
+	font-weight: 500;
+	font-size: 1rem;
+	border-bottom: 1px solid var(--black);
+}
+.forms__tel {
+	padding-bottom: 0.875rem;
+	width: 18.75rem;
+	font-weight: 500;
+	font-size: 1rem;
+	border-bottom: 1px solid var(--black);
+}
+.forms__location {
+}
+.forms__region-name {
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+}
+.forms__region {
+	margin-right: 4.23rem;
+	padding-bottom: 1rem;
+	width: 18.75rem;
+	font-weight: 500;
+	font-size: 1rem;
+	border-bottom: 1px solid #adadad;
+}
+.forms__city {
+	padding-bottom: 1rem;
+	width: 18.75rem;
+	font-weight: 500;
+	font-size: 1rem;
+	border-bottom: 1px solid #adadad;
+}
+.forms__section-name {
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+.forms__payment {
+}
+.forms__payment-name {
+	margin-top: 3.9rem;
+	margin-bottom: 2.1rem;
+}
+.forms__payment-inputs {
+	display: flex;
+}
+.forms__payment-inputs input {
+	margin-right: 1rem;
+	content: url(/img/forms/around-point.png);
+}
+.forms__payment-inputs input:checked {
+	content: url(/img/forms/around-point-checked.png);
+}
+.forms__payment-inputs p {
+	margin-right: 2rem;
+}
+.forms__services {
+}
+.forms__services-name {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+}
+.forms__timer {
+}
+.forms__button-send {
+}
+.forms__button {
+}
+.button {
+}
+.forms__note-buttons {
+}

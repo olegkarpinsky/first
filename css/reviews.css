@@ -2,9 +2,7 @@
 	background-color: var(--yellow);
 }
 .reviews__container {
-	margin: 0 auto;
 	padding: 6rem 1rem;
-	max-width: 81rem;
 }
 .reviews__row {
 	margin: 3.75rem 0;
@@ -51,7 +49,7 @@
 	cursor: pointer;
 }
 .reviews__points li::before {
-	content: url(../img/reviews/point.png);
+	content: url(/img/reviews/point.png);
 }
 .reviews__points ul {
 	margin: 0 auto;
@@ -61,7 +59,7 @@
 	align-items: center;
 }
 .reviews__points li:hover {
-	content: url(../img/reviews/around-point.png);
+	content: url(/img/reviews/around-point.png);
 }
 .reviews__points {
 	display: none;

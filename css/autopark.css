@@ -1,16 +1,7 @@
 .autopark {
 }
 .autopark__container {
-	margin: 0 auto;
 	padding: 3.2rem 1rem;
-	max-width: 85rem;
-}
-.autopark__subtitle {
-	margin-top: 1rem;
-	margin-bottom: 3.75rem;
-	font-weight: 600;
-	font-size: 1.5rem;
-	text-align: center;
 }
 .autopark__row {
 	margin: 0rem auto 3.75rem;
@@ -41,7 +32,7 @@
 	font-size: 1.5rem;
 }
 .autopark__info li::before {
-	content: url(../img/autopark/checkIcon.png);
+	content: url(/img/autopark/checkIcon.png);
 	padding-right: 1rem;
 }
 .autopark__info li {
@@ -131,12 +122,10 @@
 	}
 	.autopark__info-adaptive li {
 		margin: 1rem 0 1.25rem;
-	}
-	.autopark__info-adaptive li::before {
-		content: url(../img/autopark/point.png);
+		content: url(/img/autopark/point.png);
 	}
 	.autopark__info-adaptive li:hover {
-		content: url(../img/autopark/around-point.png);
+		content: url(/img/autopark/around-point.png);
 	}
 	.autopark__button-adaptive {
 		display: flex;
