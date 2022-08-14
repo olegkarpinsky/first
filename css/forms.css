@@ -1,3 +1,7 @@
+input,
+select {
+	cursor: pointer;
+}
 .forms__container {
 	padding-top: 3.9rem;
 	max-width: 47rem;
@@ -22,6 +26,7 @@
 	font-weight: 500;
 	font-size: 1rem;
 	border-bottom: 1px solid var(--black);
+	cursor: text;
 }
 .forms__tel {
 	padding-bottom: 0.875rem;
@@ -29,6 +34,7 @@
 	font-weight: 500;
 	font-size: 1rem;
 	border-bottom: 1px solid var(--black);
+	cursor: text;
 }
 .forms__location {
 }
@@ -66,19 +72,37 @@
 }
 .forms__payment-inputs input {
 	margin-right: 1rem;
-	content: url(/img/forms/around-point.png);
+	content: url(/img/forms/around-point.svg);
 }
 .forms__payment-inputs input:checked {
-	content: url(/img/forms/around-point-checked.png);
+	content: url(/img/forms/around-point-checked.svg);
 }
 .forms__payment-inputs p {
 	margin-right: 2rem;
 }
 .forms__services {
+	margin-bottom: 4.5rem;
+}
+.forms__services-check {
+	display: grid;
+	grid-template-columns: 12rem 20rem 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 2rem;
 }
 .forms__services-name {
 	margin-top: 4rem;
 	margin-bottom: 2rem;
+}
+.forms__services-name::after {
+	margin-left: 0.75rem;
+	content: url(/img/forms/arrow-top.svg);
+}
+.forms__services input {
+	margin-right: 1rem;
+	content: url(/img/forms/check-mark.svg);
+}
+.forms__services input:checked {
+	content: url(/img/forms/check-mark-checked.svg);
 }
 .forms__timer {
 }
