@@ -65,9 +65,16 @@
 	margin-top: 8rem;
 	padding: 0 3rem;
 }
+.autopark__slider-left img {
+	cursor: pointer;
+}
 .autopark__slider-right {
 	margin-top: 8rem;
 	padding: 0 3rem;
+	cursor: pointer;
+}
+.autopark__slider-right img {
+	cursor: pointer;
 }
 
 @media (max-width: 1000px) {

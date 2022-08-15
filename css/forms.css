@@ -4,11 +4,11 @@ select {
 }
 .forms__container {
 	padding-top: 3.9rem;
-	max-width: 47rem;
+	max-width: 50rem;
 }
 .forms__wrapper {
 	padding-left: 0.5rem;
-	max-width: 42.5rem;
+	max-width: 49rem;
 }
 .forms__title {
 	text-align: left;
@@ -104,13 +104,31 @@ select {
 .forms__services input:checked {
 	content: url(/img/forms/check-mark-checked.svg);
 }
-.forms__timer {
+.forms__timer-and-button-send {
+	display: flex;
 }
-.forms__button-send {
+.forms__timer p {
+	margin-right: 4.1rem;
+	font-weight: 400;
+	font-size: 6rem;
 }
 .forms__button {
+	padding: 1rem 2rem;
+	outline: var(--yellow) solid 2px;
 }
-.button {
+.forms__note-buttons input {
+	margin-right: 0.63rem;
+}
+.forms__note-buttons input:checked {
+	content: url(/img/forms/check-mark-note.jpg);
+	object-fit: cover;
+	width: 1rem;
+	height: 1rem;
 }
 .forms__note-buttons {
+	margin-top: 1rem;
+	line-height: 1rem;
+	font-weight: 400;
+	font-size: 0.75rem;
+	letter-spacing: 0.015em;
 }
