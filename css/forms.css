@@ -113,10 +113,13 @@ select {
 	font-size: 6rem;
 }
 .forms__button {
-	padding: 1rem 2rem;
+	padding: 1rem 3rem;
+	font-size: 1rem;
 	outline: var(--yellow) solid 2px;
 }
 .forms__note-buttons input {
+	width: 14px;
+	height: 14px;
 	margin-right: 0.63rem;
 }
 .forms__note-buttons input:checked {
@@ -127,7 +130,10 @@ select {
 }
 .forms__note-buttons {
 	margin-top: 1rem;
-	line-height: 1rem;
+	display: flex;
+}
+.forms__note-buttons p {
+	padding-top: 0.2rem ;
 	font-weight: 400;
 	font-size: 0.75rem;
 	letter-spacing: 0.015em;
