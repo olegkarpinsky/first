@@ -36,8 +36,6 @@ select {
 	border-bottom: 1px solid var(--black);
 	cursor: text;
 }
-.forms__location {
-}
 .forms__region-name {
 	margin-top: 3rem;
 	margin-bottom: 4rem;
@@ -60,8 +58,6 @@ select {
 .forms__section-name {
 	font-weight: 700;
 	font-size: 1.25rem;
-}
-.forms__payment {
 }
 .forms__payment-name {
 	margin-top: 3.9rem;
@@ -133,8 +129,81 @@ select {
 	display: flex;
 }
 .forms__note-buttons p {
-	padding-top: 0.2rem ;
+	padding: 0.2rem;
 	font-weight: 400;
 	font-size: 0.75rem;
 	letter-spacing: 0.015em;
+}
+
+@media (max-width: 660px) {
+	.forms__location {
+		display: none;
+	}
+	.forms__payment {
+		display: none;
+	}
+	.forms__services {
+		display: none;
+	}
+	.forms__timer {
+		display: none;
+	}
+	.forms__title {
+		text-align: center;
+	}
+	.forms__note {
+		text-align: center;
+	}
+	.forms__name-and-tel {
+		text-align: center;
+	}
+	.forms__name {
+		margin-right: 0;
+		width: 35rem;
+	}
+	.forms__tel {
+		width: 35rem;
+	}
+	.forms__button {
+		display: none;
+		padding: 1rem 3rem;
+		font-size: 1rem;
+		outline: var(--yellow) solid 2px;
+	}
+	.forms__note-buttons {
+		display: none;
+		margin-top: 1rem;
+		display: flex;
+	}
+	.forms__note-buttons p {
+		display: none;
+		padding-top: 0.2rem;
+		font-weight: 400;
+		font-size: 0.75rem;
+		letter-spacing: 0.015em;
+	}
+}
+@media (max-width: 520px) {
+	.forms__name {
+		width: 30rem;
+	}
+	.forms__tel {
+		width: 30rem;
+	}
+}
+@media (max-width: 450px) {
+	.forms__name {
+		width: 25rem;
+	}
+	.forms__tel {
+		width: 25rem;
+	}
+}
+@media (max-width: 380px) {
+	.forms__name {
+		width: 21rem;
+	}
+	.forms__tel {
+		width: 21rem;
+	}
 }
