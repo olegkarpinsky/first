@@ -159,24 +159,23 @@ select {
 	}
 	.forms__name {
 		margin-right: 0;
+		margin-bottom: 1.4rem;
 		width: 35rem;
 	}
 	.forms__tel {
+		margin-bottom: 3.8rem;
 		width: 35rem;
 	}
 	.forms__button {
-		display: none;
 		padding: 1rem 3rem;
 		font-size: 1rem;
 		outline: var(--yellow) solid 2px;
 	}
 	.forms__note-buttons {
-		display: none;
 		margin-top: 1rem;
 		display: flex;
 	}
 	.forms__note-buttons p {
-		display: none;
 		padding-top: 0.2rem;
 		font-weight: 400;
 		font-size: 0.75rem;
@@ -186,6 +185,7 @@ select {
 @media (max-width: 520px) {
 	.forms__name {
 		width: 30rem;
+
 	}
 	.forms__tel {
 		width: 30rem;
