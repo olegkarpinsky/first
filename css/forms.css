@@ -165,7 +165,6 @@ select {
 		margin-bottom: 1.4rem;
 	}
 	.forms__tel {
-		margin-bottom: 3.8rem;
 		width: 35rem;
 	}
 	.forms__button-send {
@@ -190,7 +189,6 @@ select {
 @media (max-width: 520px) {
 	.forms__name {
 		width: 30rem;
-
 	}
 	.forms__tel {
 		width: 30rem;
